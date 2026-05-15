@@ -1,0 +1,1 @@
+####D:/sdk/fbb_ws63/src/middleware/utils/update/common/upg_alloc.c,D:/sdk/fbb_ws63/src/middleware/utils/update/common/upg_common.c,D:/sdk/fbb_ws63/src/middleware/utils/update/common/upg_verify.c

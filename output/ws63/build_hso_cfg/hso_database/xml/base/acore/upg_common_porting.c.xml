@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[UPG] progress callback regist failed @upg_common_porting.c(205),ERROR" ID="0xa07a066a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="check_verify_enable efuse_read_item fail[0x%x]! @upg_common_porting.c(390),ERROR" ID="0xa07a0c32" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="rootkey image id[0x%x] error! @upg_common_porting.c(416),ERROR" ID="0xa07a0d02" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="verify_rootkey upg_calc_hash_directly fail[0x%x] @upg_common_porting.c(423),ERROR" ID="0xa07a0d3a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="verify_rootkey efuse_read_item fail[0x%x] @upg_common_porting.c(430),ERROR" ID="0xa07a0d72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="verify_rootkey hash memcmp fail! @upg_common_porting.c(437),ERROR" ID="0xa07a0daa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[UPG] get msid fail,ret=0x%x @upg_common_porting.c(472),ERROR" ID="0xa07a0ec2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[UPG] msid wrong! @upg_common_porting.c(476),ERROR" ID="0xa07a0ee2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[UPG] get_package_header fail @upg_common_porting.c(548),ERROR" ID="0xa07a1122" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[UPG] get_pkg_hash_table fail @upg_common_porting.c(553),ERROR" ID="0xa07a114a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[UPG] get_pkg_image_header fail @upg_common_porting.c(561),ERROR" ID="0xa07a118a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[UPG] init failed! @upg_common_porting.c(634),ERROR" ID="0xa07a13d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[UPG] init OK! @upg_common_porting.c(641),INFO" ID="0xa07a140d" />
+			</MSG_LOG>

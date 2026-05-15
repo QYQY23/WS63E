@@ -1,0 +1,56 @@
+#===============================================================================
+# @brief    Kconfig file.
+# Copyright (c) HiSilicon (Shanghai) Technologies Co., Ltd. 2024-2024. All rights reserved.
+#===============================================================================
+config AD8232_ADC_CHANNEL
+    int
+    prompt "AD8232 OUTPUT ADC channel."
+    default 5
+    help
+        ADC channel connected to the AD8232 OUTPUT pin (analog ECG signal).
+        ADC5 = GPIO_12.
+
+config AD8232_LO_PLUS_PIN
+    int
+    prompt "AD8232 LO+ leads off detection pin."
+    default 10
+    help
+        WS63E GPIO pin connected to AD8232 LO+ (leads off detection +).
+
+config AD8232_LO_MINUS_PIN
+    int
+    prompt "AD8232 LO- leads off detection pin."
+    default 11
+    help
+        WS63E GPIO pin connected to AD8232 LO- (leads off detection -).
+
+config AD8232_SDN_PIN
+    int
+    prompt "AD8232 SDN shutdown pin, set to 25 (PIN_NONE) to disable."
+    default 13
+    help
+        WS63E GPIO pin connected to AD8232 SDN (shutdown control).
+        Note: DO NOT set to 12 to avoid conflict with ADC channel 5.
+
+config AD8232_UART_BUS
+    int
+    prompt "UART bus for ECG data output (0/1/2)."
+    default 0
+    help
+        UART bus used to output ECG data to serial terminal.
+        0=UART0(TX:GPIO_17), 1=UART1(TX:GPIO_15), 2=UART2(TX:GPIO_08).
+
+config AD8232_UART_TXD_PIN
+    int
+    prompt "UART TXD pin for ECG data output."
+    default 17
+    help
+        GPIO pin for UART TX. Default is 17 (UART0_TXD).
+
+config AD8232_UART_BAUDRATE
+    int
+    prompt "UART baudrate for ECG data output."
+    default 115200
+    help
+        Baudrate for the ECG data output UART.
+        Use 115200 or 9600 for Arduino Serial Plotter compatibility.

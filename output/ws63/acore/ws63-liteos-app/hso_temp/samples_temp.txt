@@ -1,0 +1,1 @@
+,D:/sdk/fbb_ws63/src/middleware/chips/ws63/dfx/include/log_def_bt.h,D:/sdk/fbb_ws63/src/middleware/chips/ws63/dfx/include/log_def_dsp.h,D:/sdk/fbb_ws63/src/middleware/chips/ws63/dfx/include/log_def_pf.h,D:/sdk/fbb_ws63/src/middleware/chips/ws63/dfx/include/log_def_wifi.h####D:/sdk/fbb_ws63/src/application/samples/bt/sle/sle_identity_client/src/sle_identity_client.c
